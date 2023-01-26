@@ -1,0 +1,27 @@
+{
+  "name": "insomnia-plugin-hmac-makaira",
+  "version": "0.1.0",
+  "private": true,
+  "insomnia": {
+    "name": "hmac-makaira",
+    "displayName": "HMAC with nonce and secret from payload plugin",
+    "description": "Generate an HMAC on the req. body with nonce and secret. Based on Benjamin LETELLIER plugin: insomnia-plugin-request-body-hmac-query-string",
+    "images": {
+      "cover": "cover.svg"
+    },
+    "unlisted": false
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git", 
+    "url": "git+https://github.com/xxx/insomnia-plugin-hmac-makaira.git"
+  },
+  "author": "Tom",
+  "license": "ISC",
+  "description": "I just changed Benjamin LETELLIER plugin (insomnia-plugin-request-body-hmac-query-string) to work with Makaira API.",
+  "devDependencies": {
+  }
+}
