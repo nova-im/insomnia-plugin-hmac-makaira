@@ -1,7 +1,7 @@
 {
   "name": "insomnia-plugin-hmac-makaira",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "insomnia": {
     "name": "hmac-makaira",
     "displayName": "HMAC with nonce and secret from payload plugin",
