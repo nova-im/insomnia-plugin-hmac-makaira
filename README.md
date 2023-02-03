@@ -6,6 +6,7 @@ which was based on [Template tag for HMAC by Grunka](https://github.com/Beninho/
 
 I've just made it work somehow, no guarantees, no fixes, no nothing.
 Check yourself what you use and do so at your own risk!
+--> I needed this for the Makaira API (makaira.io) so this might work with other APIs but I did not care about being generic.
 
 ## Install
 
