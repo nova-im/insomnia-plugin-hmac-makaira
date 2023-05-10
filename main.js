@@ -2,11 +2,11 @@ const crypto = require('crypto');
 
 const replacementContent = 'Will be replaced with HMAC of request body turned into Query String';
 const settings = {
-  key: null,
-  algorithm: null,
-  encoding: null,
+  key: '',
+  algorithm: '',
+  encoding: '',
   parseJson: false,
-  nonce: null
+  nonce: ''
 };
 
 function convertToQueryString(content) {
@@ -117,7 +117,7 @@ module.exports.templateTags = [{
 module.exports.requestHooks = [
   context => {
     // console.log("hook");
-    const bodyString = context.request.getBody().text;
+    const bodyString = context.request?.getBody?.()?.text || '';
     // console.log("bd:"+bodyString)
     if (bodyString===undefined) { return; }
     // console.log("hook0");
