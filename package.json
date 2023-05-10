@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-hmac-makaira",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "insomnia": {
     "name": "hmac-makaira",
